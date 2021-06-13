@@ -8,8 +8,3 @@ var firebaseConfig = {
     appId: "1:666082946607:web:872a130be5ccd5be5de0da"
   };
   // Initialize Firebase
-function adduser(){
-    var user_name = document.getElementById("user_name").value;
-    localStorage.setItem("name" , user_name);
-    window.location  = "kwitter_page.html" 
-    }
